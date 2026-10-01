@@ -1,0 +1,75 @@
+Question 1:
+Which parts of the stronger prompt make it Concise, Logical, and Explicit? Identify at least one
+example for each part of CLEAR.
+Clear: Clearly states the goal "Help me create a two page website about a topic I choose."
+
+Logical: Instruction follow a logical order "First give me only a file/folder plan and a checklist"
+
+Explicit: It gives specific requirements "one external stylesheet, relative links, an image with useful alt text, lists, an external link, a class, an ID, a descendant selector, link pseudo-classes, relative and absolute CSS units, float and clear, and one CSS custom property"
+
+Question 2:
+Why are Adaptive and Reflective different from simply adding more details to the first prompt?
+They change how the system behaves
+
+
+Question3:
+Why should you understand a generated CSS rule before keeping it in your final submission?
+-To avoid bad code and other mistakes.
+
+
+Question 4:
+What made this workflow more agentic than the earlier prompt that simply asked the AI to
+generate index.html?
+
+
+Question 5:
+Why is Developer Tools useful even when an AI assistant can suggest CSS changes?
+-Because Dev tools are temporary
+
+
+Big Question:
+
+What is generative AI, and how did you use it in this lab?
+Generative AI is machine program that generates content. I used it to create a webpage.
+
+
+What is agentic AI, and how is its goal different from simple content generation?
+
+
+What does each letter in CLEAR stand for?
+Concise, Logical, Explicit, Adaptive, Reflective.
+
+
+How did your original prompt demonstrate the Concise part of CLEAR?
+It was thorough in exactly what it wanted the Ai to provide.
+
+
+How did your prompt demonstrate the Logical part of CLEAR?
+It was written in a way that was easy to follow.
+
+
+How did your prompt demonstrate the Explicit part of CLEAR?
+Statements were made clearly.
+
+Give one example of how you used the Adaptive part of CLEAR during the lab
+By changing the image file pathway and altering colors.
+
+.
+What does the Reflective part of CLEAR ask you to do after receiving an AI response?
+Evaluate it's output to make the next request better.
+
+
+Why should you avoid accepting AI-generated HTML or CSS without reading it?
+Ai often can make flawed or inefficient code.
+
+How did Developer Tools help you inspect or test the webpage?
+It allowed me to see how my code interacted in real time as an actual webpage rather than a preview.
+
+
+Why should W3C validation still be used even if an AI assistant says the code is correct?
+Of course, AI can and frequently does make mistakes.
+
+Who is responsible for the correctness and quality of the final submitted website: the AI tool or
+the student? Explain your answer
+
+The student is ultimately responsible as AI can frequently make mistake and the student 

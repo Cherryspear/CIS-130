@@ -1,0 +1,11 @@
+ChatGPT
+
+I am a beginner CIS-130 student practicing HTML and CSS. Help me create a two-page
+website about a topic I choose. Use only HTML and CSS. I need semantic HTML, one
+external stylesheet, relative links, an image with useful alt text, lists, an external link, a
+class, an ID, a descendant selector, link pseudo-classes, relative and absolute CSS units,
+float and clear, and one CSS custom property. Do not use JavaScript, Bootstrap, Tailwind,
+or inline CSS. First give me only a file/folder plan and a checklist. Do not generate the
+code yet.
+
+ADAPTIVE: I changed to font and background colors

@@ -1,0 +1,175 @@
+/* ========================================
+   CSS CUSTOM PROPERTY
+   ======================================== */
+
+:root {
+    --main-color: #2f5d3a;
+    --light-color: #e8f0e9;
+    --text-color: #333333;
+}
+
+
+/* ========================================
+   GENERAL PAGE STYLES
+   ======================================== */
+
+body {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    line-height: 1.6;
+    color: var(--text-color);
+    background-color: #5d9cc0;
+}
+
+
+/* ========================================
+   HEADER
+   ======================================== */
+
+header {
+    background-color: var(--main-color);
+    color: white;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+
+/* ========================================
+   NAVIGATION
+   ======================================== */
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 1rem 0 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 0.75rem;
+}
+
+
+/* Descendant selector */
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+/* Link pseudo-classes */
+nav a:link {
+    color: white;
+}
+
+nav a:visited {
+    color: #d9eadc;
+}
+
+nav a:hover {
+    color: #b90cbe;
+    text-decoration: underline;
+}
+
+nav a:active {
+    color: #ff9900;
+}
+
+
+/* ========================================
+   MAIN CONTENT
+   ======================================== */
+
+main {
+    width: 80%;
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: rgb(129, 112, 228);
+}
+
+
+/* ========================================
+   SECTION HEADINGS
+   ======================================== */
+
+section h2 {
+    color: var(--main-color);
+}
+
+
+/* ========================================
+   IMAGE
+   ======================================== */
+
+/* Class selector and float */
+.trail-image {
+    width: 40%;
+    max-width: 350px;
+    height: auto;
+    float: left;
+    margin: 0 1.5rem 1rem 0;
+}
+
+
+/* ========================================
+   RESOURCE SECTION
+   ======================================== */
+
+/* Clear property */
+.resource {
+    clear: both;
+    margin-top: 2rem;
+    padding-top: 1rem;
+    border-top: 2px solid var(--light-color);
+}
+
+
+/* ========================================
+   ID SELECTORS
+   ======================================== */
+
+#welcome {
+    padding: 1.5rem;
+    background-color: var(--light-color);
+}
+
+#beginner-tip {
+    margin-top: 2rem;
+    padding: 1.5rem;
+    background-color: var(--light-color);
+}
+
+
+/* ========================================
+   MAIN CONTENT LINKS
+   ======================================== */
+
+main a {
+    color: var(--main-color);
+}
+
+main a:hover {
+    color: #b45f06;
+}
+
+
+/* ========================================
+   FOOTER
+   ======================================== */
+
+footer {
+    clear: both;
+    padding: 1rem;
+    color: white;
+    background-color: var(--main-color);
+    text-align: center;
+    font-size: 0.9rem;
+}

@@ -1,0 +1,26 @@
+
+Question
+What is the difference between a horizontal and a vertical navigation menu?
+
+A horizontal navigation menu displays links in a row, usually across the top of a website. A vertical navigation menu displays links in a column, one below another, usually along the side of a website.
+
+Question
+What do justify-content and flex-wrap each control?
+
+Justify-content controls how items are aligned and spaced along the main axis of a flex container, flex-wrap controls whether items stay on one line or move onto multiple lines when there is not enough space.
+
+Question
+What is the difference between position: relative and position: absolute in your submenu?
+
+[position: relative] positions an element relative to its normal position and keeps its space in the layout. [position: absolute] positions an element relative to its nearest positioned ancestor and removes it from the normal layout flow.
+
+Question
+What changed in the appearance of your existing website after you added navigation?
+
+After adding navigation, my website became more organized and easier to navigate.
+
+Question
+What problem did you find during testing, and how did you correct it?
+
+During testing, I found that the submenu did not display or align correctly. I corrected the problem by adjusting the CSS positioning and checking the hover behavior to make sure the submenu appeared in the correct place.
+

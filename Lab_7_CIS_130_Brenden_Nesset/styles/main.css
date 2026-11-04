@@ -1,0 +1,242 @@
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #7A0D44;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0 auto;
+    padding: 1em;
+    max-width: 1000px;
+    line-height: 1.5em;
+}
+
+/* --- NAVIGATION --- */
+
+.navbar {
+    background-color: #243447;
+    color: white;
+}
+
+.nav-title {
+    padding: .75em 1em;
+    font-weight: bold;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: .25rem;
+}
+
+.menu > li {
+    position: relative;
+}
+
+.navbar a {
+    display: block;
+    padding: .75rem;
+    color: white;
+    text-decoration: none;
+}
+
+.navbar a:hover,
+.navbar a:focus-visible {
+    text-decoration: underline;
+    background-color: #3d5875;
+    color: white;
+}
+
+.navbar a.current {
+    background-color: #dce8f4;
+    color: #172536;
+    font-weight: bold;
+}
+
+/* --- DROPDOWN MENU --- */
+
+.submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 10;
+    min-width: 11rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background-color: #243447;
+}
+
+.has-submenu:hover > .submenu,
+.has-submenu:focus-within > .submenu {
+    display: block;
+}
+
+.submenu > li:first-child {
+    font-weight: bold;
+}
+
+.submenu > li:last-child {
+    font-style: italic;
+}
+
+/* --- MAIN LAYOUT --- */
+
+main {
+    width: min(100% - 2rem, 1100px);
+    margin: 0 auto;
+    clear: both;
+}
+
+.page-layout {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding-top: 1em;
+}
+
+.main-content {
+    flex: 2;
+    min-width: 0;
+}
+
+.sidebar {
+    flex: 1;
+    padding: 1em;
+    border: 2px solid var(--primary-color);
+    border-radius: 10px;
+    background-color: #C0A973;
+}
+
+/* --- CONTENT BOXES --- */
+
+.content-box {
+    padding: 1em;
+    margin-bottom: 1em;
+    border: 2px solid var(--primary-color);
+    border-radius: 10px;
+    background-color: #C0A973;
+}
+
+/* --- HEADINGS --- */
+
+h1 {
+    font-size: 200%;
+    color: var(--primary-color);
+    padding-bottom: 1em;
+}
+
+h2 {
+    font-size: 150%;
+    color: var(--primary-color);
+    padding-bottom: 0.5em;
+}
+
+header {
+    padding-bottom: 0.75em;
+    border-bottom: 3px solid black;
+}
+
+/* --- IMAGES --- */
+
+img {
+    display: block;
+    float: none;
+    max-width: 100%;
+    height: auto;
+    margin-right: 0.5em;
+    padding-left: 0.1em;
+}
+
+/* --- TEXT --- */
+
+p {
+    padding-bottom: 0.1em;
+}
+
+.important {
+    color: crimson;
+    font-weight: bold;
+}
+
+/* --- LINKS --- */
+
+a:link {
+    color: rgb(255, 174, 0);
+}
+
+a:visited {
+    color: rgb(2, 255, 35);
+}
+
+a:hover {
+    color: rgb(6, 77, 136);
+}
+
+/* --- FOOTER --- */
+
+#copyright {
+    font-size: 100%;
+}
+
+footer p {
+    text-align: left;
+}
+
+/* --- RESPONSIVE NAVIGATION AND LAYOUT --- */
+
+@media screen and (min-width: 768px) {
+    .page-layout {
+        flex-direction: row;
+    }
+
+    .main-content {
+        flex: 2;
+    }
+
+    .sidebar {
+        flex: 1;
+    }
+
+    .menu {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+}
+
+/* --- RESPONSIVE CARDS --- */
+
+.card-panel {
+    container-type: inline-size;
+    container-name: cards;
+}
+
+.card-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.card {
+    padding: 1rem;
+    border: 1px solid #777;
+}
+
+@container cards (min-width: 500px) {
+    .card-list {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .card {
+        flex: 1 1 45%;
+    }
+}
